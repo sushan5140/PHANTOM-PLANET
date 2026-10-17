@@ -153,6 +153,17 @@ analytic-evidence test gives -3.0131 +/-0.0670 versus exact -2.9957. These valid
 normalization and implementation locally; they do not turn the historical
 discrepancies into successful exact replication. Additional direct-reference
 attempts and outputs are retained with the work log and tutorial JSONs.
+In particular, a separate ordered 500-live random-walk reference found
+P2=4.75975 days but ln Z=-695.187 +/-0.338, substantially different from the
+current juliet fit. Matching the historical period mode therefore does not
+establish a converged evidence reproduction. The independent one-planet result,
+-804.467 +/-0.258, agrees with the current one-planet juliet run within about
+1.4 combined sampler sigma. The two-planet extension remains a distinct
+global-exploration limitation, and is not used to claim target validation.
+A 2000-live uniform-ellipsoid reference attempt was stopped after 845.8 seconds
+when dynesty warned that ellipsoid sampling was extremely inefficient. It did
+not produce a completed evidence estimate. Its [aborted status](tutorial_direct_global_status.json)
+and warning are retained; no value is substituted for that missing result.
 
 ## Scientific opportunity and P04 decision
 

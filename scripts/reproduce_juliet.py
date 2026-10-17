@@ -92,6 +92,10 @@ def main():
         print(json.dumps(summary), flush=True)
     delta = summaries[1]["lnZ"] - summaries[0]["lnZ"]
     period = summaries[1]["posterior"]["P_p2"][1]
+    documented_z, documented_error = [-805.302, -690.892], [.027, .023]
+    evidence_matches = [bool(abs(row["lnZ"]-value) <= 3*np.hypot(row["lnZerr"], error))
+                        for row, value, error in zip(summaries, documented_z, documented_error)]
+    period_matches = bool(abs(period-4.76) < .005)
     validation = {"models": summaries, "delta_lnZ_2_minus_1": delta,
                   "documented_delta_lnZ": 114.4,
                   "documented_figure_lnZ": [-805.302, -690.892],
@@ -100,7 +104,10 @@ def main():
                                             summaries[1]["lnZ"]+690.892],
                   "documented_rv_only_P2_approx_days": 4.76,
                   "P2_minus_documented_approx_days": float(period-4.76),
-                  "exact_historical_fit_reproduced": False,
+                  "historical_evidence_within_3sigma": evidence_matches,
+                  "historical_period_rounding_match": period_matches,
+                  "historical_check_definition": "Numerical consistency within 3 combined evidence errors and 0.005 d of documented P2, not bitwise equality",
+                  "exact_historical_fit_reproduced": bool(all(evidence_matches) and period_matches),
                   "approximate_sanity_check_passed": bool(abs(delta-114.4) < 10 and abs(period - 4.76) < .1
                                  and abs(summaries[0]["lnZ"]+805.302) < 5
                                  and abs(summaries[1]["lnZ"]+690.892) < 5),

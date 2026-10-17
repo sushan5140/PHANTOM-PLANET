@@ -148,6 +148,31 @@ not as instructions. No LLM training, Laya integration, website, merge or deploy
     both results. As a final global-exploration check, launched a direct 2000-live
     uniform-within-multi-ellipsoid run (seed 19143) with identical priors and
     ordering constraint. This does not change the target results or their priors.
+25. The TOI-141 reference spans 3727.012485849671 days: 7 CORALIE07, 8 CORALIE14,
+    176 FEROS and 47 HARPS observations. The separated observing epochs make
+    period-cycle ambiguity plausible, but this is not asserted as a proven cause
+    of the evidence discrepancy. Target fits remain separate and use one instrument.
+    All 19 completed target JSONs were checked against the identical corrected
+    input SHA-256 f680fc480610a501088f29ab12500e0b303edd532ada8593d3d9ad580e68116c.
+    Final CSV/JSON maximum differences are zero except RV rounding at 9.54e-18 m/s.
+26. Published review branch and draft PR #2, stacked on still-open PR #1. Verified
+    both branch names and P01 head; P01 source diff is empty. Original data retain
+    exact bytes, including CRLF; whitespace style checking excludes third-party
+    byte-preservation files and permits CR at CSV line endings. New source checks
+    pass. Initial archive passed ZIP CRC and expected-figure checks; final release
+    archive will be regenerated after the last reference attempt is recorded.
+27. Replaced the historical-replication status constant with explicit numeric
+    checks (three combined evidence-error sigma and 0.005-day documented-period
+    rounding tolerance). Current status remains false; the separate conservative
+    approximate sanity-check flag remains true. No target prior or result changed.
+28. Final optional 2000-live `unif` reference emitted exactly: `Ellipsoid sampling
+    is extremely inefficient`. Stopped only its inspected processes after
+    845.8091378 seconds (725.21875 CPU seconds). No global evidence/posterior was
+    completed, and none is claimed. Status, UTC times and the warning are in
+    tutorial_direct_global_status.json / tutorial_direct_global_run.log. Exact
+    historical benchmark replication remains an unresolved limitation. The
+    default reproduction sequence covers completed computations; this aborted
+    optional experiment is documented rather than silently rerun as a requirement.
 
 Subsequent completed run outputs, diagnostics and final interpretation are
 recorded in MODEL_COMPARISON.md and the machine-readable JSON/CSV artifacts.

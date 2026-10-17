@@ -55,6 +55,12 @@
   ],
   "documented_rv_only_P2_approx_days": 4.76,
   "P2_minus_documented_approx_days": 0.0251739687268131,
+  "historical_evidence_within_3sigma": [
+    false,
+    true
+  ],
+  "historical_period_rounding_match": false,
+  "historical_check_definition": "Numerical consistency within 3 combined evidence errors and 0.005 d of documented P2, not bitwise equality",
   "exact_historical_fit_reproduced": false,
   "approximate_sanity_check_passed": true,
   "scope": "Approximate reproduction of first two circular RV examples. Conservative 5-nat absolute/10-nat delta tolerances; not validation to the tiny documentation figure errors. Sampler/version differ and any discrepancy remains unresolved."

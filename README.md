@@ -51,6 +51,9 @@ Target sampling requires a completed official example and checked likelihood.
 The documented tutorial's absolute evidence is only approximately reproduced;
 the discrepancy is retained, not silently declared numerical agreement.
 Full details are in the tutorial JSONs and work log.
+An optional 2000-live uniform-sampling reference attempt was stopped after an
+explicit inefficiency warning. It has no reported evidence and is not part of
+the default completed-run reproduction sequence.
 
 Existing target result files are not overwritten: use a fresh `results/` directory
 or a new seed/live-point count. `--reuse-audit` reads a checksum-verified processed
