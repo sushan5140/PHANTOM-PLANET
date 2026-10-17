@@ -1,0 +1,562 @@
+{
+  "evidence_differences": [
+    {
+      "variant": "amplitude",
+      "seed": 303,
+      "left": "A",
+      "right": "B",
+      "delta_lnZ_left_minus_right": -0.7360271050011278,
+      "monte_carlo_sigma": 0.1955606498507702
+    },
+    {
+      "variant": "amplitude",
+      "seed": 303,
+      "left": "A",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.7380526491326549,
+      "monte_carlo_sigma": 0.21526440326546595
+    },
+    {
+      "variant": "amplitude",
+      "seed": 303,
+      "left": "B",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.0020255441315271128,
+      "monte_carlo_sigma": 0.1919301065782547
+    },
+    {
+      "variant": "broad",
+      "seed": 303,
+      "left": "A",
+      "right": "B",
+      "delta_lnZ_left_minus_right": -0.7527339798296566,
+      "monte_carlo_sigma": 0.18647462885093433
+    },
+    {
+      "variant": "broad",
+      "seed": 303,
+      "left": "A",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.94622929153482,
+      "monte_carlo_sigma": 0.2112640754122162
+    },
+    {
+      "variant": "broad",
+      "seed": 303,
+      "left": "B",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.19349531170516343,
+      "monte_carlo_sigma": 0.19286185668620412
+    },
+    {
+      "variant": "broad",
+      "seed": 73344,
+      "left": "A",
+      "right": "B",
+      "delta_lnZ_left_minus_right": -0.5993156638768795,
+      "monte_carlo_sigma": 0.183115281334221
+    },
+    {
+      "variant": "broad",
+      "seed": 73344,
+      "left": "A",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.3303547194699945,
+      "monte_carlo_sigma": 0.2004370851279033
+    },
+    {
+      "variant": "broad",
+      "seed": 73344,
+      "left": "B",
+      "right": "C",
+      "delta_lnZ_left_minus_right": 0.268960944406885,
+      "monte_carlo_sigma": 0.17906268292732935
+    },
+    {
+      "variant": "primary",
+      "seed": 303,
+      "left": "A",
+      "right": "B",
+      "delta_lnZ_left_minus_right": -0.19592855276080456,
+      "monte_carlo_sigma": 0.18737280293779235
+    },
+    {
+      "variant": "primary",
+      "seed": 303,
+      "left": "A",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.8241768539703429,
+      "monte_carlo_sigma": 0.20404288919772465
+    },
+    {
+      "variant": "primary",
+      "seed": 303,
+      "left": "A",
+      "right": "N",
+      "delta_lnZ_left_minus_right": 0.7089952481107389,
+      "monte_carlo_sigma": 0.19074522893756127
+    },
+    {
+      "variant": "primary",
+      "seed": 303,
+      "left": "B",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.6282483012095383,
+      "monte_carlo_sigma": 0.18241947919779736
+    },
+    {
+      "variant": "primary",
+      "seed": 303,
+      "left": "B",
+      "right": "N",
+      "delta_lnZ_left_minus_right": 0.9049238008715434,
+      "monte_carlo_sigma": 0.16741298671573643
+    },
+    {
+      "variant": "primary",
+      "seed": 303,
+      "left": "C",
+      "right": "N",
+      "delta_lnZ_left_minus_right": 1.5331721020810818,
+      "monte_carlo_sigma": 0.18588179435456692
+    },
+    {
+      "variant": "primary",
+      "seed": 73344,
+      "left": "A",
+      "right": "B",
+      "delta_lnZ_left_minus_right": -0.021772381888965242,
+      "monte_carlo_sigma": 0.18753074042609158
+    },
+    {
+      "variant": "primary",
+      "seed": 73344,
+      "left": "A",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.6827320561181267,
+      "monte_carlo_sigma": 0.20688369945678278
+    },
+    {
+      "variant": "primary",
+      "seed": 73344,
+      "left": "A",
+      "right": "N",
+      "delta_lnZ_left_minus_right": 0.8326479182453426,
+      "monte_carlo_sigma": 0.1905708003664434
+    },
+    {
+      "variant": "primary",
+      "seed": 73344,
+      "left": "B",
+      "right": "C",
+      "delta_lnZ_left_minus_right": -0.6609596742291615,
+      "monte_carlo_sigma": 0.18350331885151375
+    },
+    {
+      "variant": "primary",
+      "seed": 73344,
+      "left": "B",
+      "right": "N",
+      "delta_lnZ_left_minus_right": 0.8544203001343078,
+      "monte_carlo_sigma": 0.16489339853645663
+    },
+    {
+      "variant": "primary",
+      "seed": 73344,
+      "left": "C",
+      "right": "N",
+      "delta_lnZ_left_minus_right": 1.5153799743634693,
+      "monte_carlo_sigma": 0.18660900132916688
+    }
+  ],
+  "repeat_consistency": [
+    {
+      "variant": "broad",
+      "model": "A",
+      "runs": [
+        [
+          303,
+          500
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.15043632680651342,
+      "combined_sigma": 0.20475886786165126,
+      "difference_in_sigma": 0.7346999345012898,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.07311589077050958,
+        "slope": 0.17448394436707962,
+        "jitter": 0.21247680603848168,
+        "period": 0.10738748986959665,
+        "K": 0.06948362794548536
+      },
+      "diagnostic_pass": true,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "broad",
+      "model": "B",
+      "runs": [
+        [
+          303,
+          500
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.002981989146263686,
+      "combined_sigma": 0.16241243639333613,
+      "difference_in_sigma": 0.018360596100176714,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.13054745582949864,
+        "slope": 0.0601786030347498,
+        "jitter": 0.29221672258743275,
+        "gp_amp": 0.24974061100237038,
+        "lifetime": 0.04059319264275582,
+        "gamma": 0.1921392899809657,
+        "rotation": 0.11005421943166378
+      },
+      "diagnostic_pass": true,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "broad",
+      "model": "C",
+      "runs": [
+        [
+          303,
+          500
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.4654382452583121,
+      "combined_sigma": 0.20707810286547382,
+      "difference_in_sigma": 2.247645882484636,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.3177813948452264,
+        "slope": 0.6297013900895865,
+        "jitter": 0.3415723891983658,
+        "period": 0.16053278022140918,
+        "K": 0.3014589636369801,
+        "gp_amp": 0.23832018407563813,
+        "lifetime": 0.16352256569485074,
+        "gamma": 0.15559174216744376,
+        "rotation": 0.1545275474901721
+      },
+      "diagnostic_pass": false,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "A",
+      "runs": [
+        [
+          303,
+          500
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.32072837657200637,
+      "combined_sigma": 0.20947598573379042,
+      "difference_in_sigma": 1.53109854310269,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.2889710335126127,
+        "slope": 0.18780655494712287,
+        "jitter": 0.16580699504424937,
+        "period": 0.26644641244400047,
+        "K": 0.17819685447231556
+      },
+      "diagnostic_pass": true,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "B",
+      "runs": [
+        [
+          303,
+          500
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.14657220570016705,
+      "combined_sigma": 0.16246894252865604,
+      "difference_in_sigma": 0.9021552268324443,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.049060021718655075,
+        "slope": 0.05086359665906789,
+        "jitter": 0.028266661158313798,
+        "gp_amp": 0.015737579118516205,
+        "lifetime": 0.10378616515050394,
+        "gamma": 0.13825169446757982,
+        "rotation": 0.08185009916850089
+      },
+      "diagnostic_pass": true,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "C",
+      "runs": [
+        [
+          1303,
+          1000
+        ],
+        [
+          2303,
+          1000
+        ]
+      ],
+      "abs_delta_lnZ": 0.022301398320351495,
+      "combined_sigma": 0.14597495632660526,
+      "difference_in_sigma": 0.15277550945419852,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.11996619138777596,
+        "slope": 0.13126681508838084,
+        "jitter": 0.143052127620503,
+        "period": 0.1440505686596399,
+        "K": 0.04799192590235352,
+        "gp_amp": 0.11622037360216726,
+        "lifetime": 0.02011734102063342,
+        "gamma": 0.08417564304803035,
+        "rotation": 0.09972337530636555
+      },
+      "diagnostic_pass": true,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "C",
+      "runs": [
+        [
+          1303,
+          1000
+        ],
+        [
+          303,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.08907096227163436,
+      "combined_sigma": 0.17332366929370444,
+      "difference_in_sigma": 0.5138995881785757,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.32446685745821896,
+        "slope": 0.11774445920757862,
+        "jitter": 0.0691853213569636,
+        "period": 0.2046600530660605,
+        "K": 0.14201006002344135,
+        "gp_amp": 0.12744229967921528,
+        "lifetime": 0.018911538862582723,
+        "gamma": 0.03268101894138943,
+        "rotation": 0.09735673381991157
+      },
+      "diagnostic_pass": false,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "C",
+      "runs": [
+        [
+          1303,
+          1000
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.09021261644815581,
+      "combined_sigma": 0.17548068762454697,
+      "difference_in_sigma": 0.5140885739014879,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.20968078488731515,
+        "slope": 0.09381033262146499,
+        "jitter": 0.3215730711083657,
+        "period": 0.07464665405455814,
+        "K": 0.038888413788926754,
+        "gp_amp": 0.16749680118326438,
+        "lifetime": 0.17084090292541043,
+        "gamma": 0.3211416488829167,
+        "rotation": 0.06692840325774901
+      },
+      "diagnostic_pass": false,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "C",
+      "runs": [
+        [
+          2303,
+          1000
+        ],
+        [
+          303,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.06676956395128286,
+      "combined_sigma": 0.1762651221294408,
+      "difference_in_sigma": 0.37880190445305706,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.2421848565576561,
+        "slope": 0.07887188886628357,
+        "jitter": 0.1882685949930083,
+        "period": 0.07089645661606206,
+        "K": 0.15691415793382585,
+        "gp_amp": 0.24369596611230393,
+        "lifetime": 0.03087394015929155,
+        "gamma": 0.07687205808051982,
+        "rotation": 0.03834170218080236
+      },
+      "diagnostic_pass": true,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "C",
+      "runs": [
+        [
+          2303,
+          1000
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.11251401476850731,
+      "combined_sigma": 0.17838657648785428,
+      "difference_in_sigma": 0.6307313979769549,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.25290411593258266,
+        "slope": 0.0876091146536439,
+        "jitter": 0.1776312482692301,
+        "period": 0.08419774250452668,
+        "K": 0.03851217863603599,
+        "gp_amp": 0.06368803838545657,
+        "lifetime": 0.1666995844289135,
+        "gamma": 0.23588198536976845,
+        "rotation": 0.11982179995071655
+      },
+      "diagnostic_pass": true,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "C",
+      "runs": [
+        [
+          303,
+          500
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.17928357871979017,
+      "combined_sigma": 0.2013806771612813,
+      "difference_in_sigma": 0.8902720024930989,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.46325712198327856,
+        "slope": 0.10347303902242326,
+        "jitter": 0.36382344608899636,
+        "period": 0.15610637271768055,
+        "K": 0.15889569587720492,
+        "gp_amp": 0.28816387455265563,
+        "lifetime": 0.16356698294321453,
+        "gamma": 0.31542775163453857,
+        "rotation": 0.13658118663467234
+      },
+      "diagnostic_pass": false,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    },
+    {
+      "variant": "primary",
+      "model": "N",
+      "runs": [
+        [
+          303,
+          500
+        ],
+        [
+          73344,
+          500
+        ]
+      ],
+      "abs_delta_lnZ": 0.1970757064374027,
+      "combined_sigma": 0.1697668510505108,
+      "difference_in_sigma": 1.1608609408603963,
+      "wasserstein_over_pooled_sd": {
+        "offset": 0.0374488149339197,
+        "slope": 0.03330870085169326,
+        "jitter": 0.02875543689118354
+      },
+      "diagnostic_pass": true,
+      "caution": "Agreement is a diagnostic, not proof that all modes were found."
+    }
+  ],
+  "preferred_primary_resolution": [
+    {
+      "model": "A",
+      "nlive": 500,
+      "seeds": [
+        303,
+        73344
+      ],
+      "at_least_two_seeds": true,
+      "repeat_diagnostic_pass": true
+    },
+    {
+      "model": "B",
+      "nlive": 500,
+      "seeds": [
+        303,
+        73344
+      ],
+      "at_least_two_seeds": true,
+      "repeat_diagnostic_pass": true
+    },
+    {
+      "model": "C",
+      "nlive": 1000,
+      "seeds": [
+        1303,
+        2303
+      ],
+      "at_least_two_seeds": true,
+      "repeat_diagnostic_pass": true
+    },
+    {
+      "model": "N",
+      "nlive": 500,
+      "seeds": [
+        303,
+        73344
+      ],
+      "at_least_two_seeds": true,
+      "repeat_diagnostic_pass": true
+    }
+  ],
+  "all_preferred_primary_checks_pass": true,
+  "all_primary_repeat_checks_pass": false,
+  "all_runs_ess_at_least_1000": true,
+  "warning": "Nested-sample ESS is weight concentration; not independent MCMC draws. No R-hat claim."
+}

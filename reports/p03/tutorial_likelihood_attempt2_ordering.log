@@ -1,0 +1,7 @@
+{"checks": [{"planets": 1, "points_checked": 50, "max_abs_lnlike_difference": 6.148044485598803e-05, "max_relative_lnlike_difference": 1.1133794395921466e-10, "tolerance": "atol=1e-5, rtol=1e-10, including extreme low-likelihood prior samples", "passed": true}, {"planets": 2, "points_checked": 50, "max_abs_lnlike_difference": 1e+101, "max_relative_lnlike_difference": 1.0, "tolerance": "atol=1e-5, rtol=1e-10, including extreme low-likelihood prior samples", "passed": false}], "first_example_complete": true, "first_example_lnZ": -803.8608078471582, "first_example_documented_lnZ": -805.302, "scope": "First documented example completed with approximate evidence agreement and independently checked likelihood. Two-planet extension may continue concurrently with target sampling; no exact evidence equivalence claim."}
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\scripts\check_tutorial_likelihood.py", line 73, in <module>
+    main()
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\scripts\check_tutorial_likelihood.py", line 69, in main
+    raise RuntimeError("Juliet likelihood differs from independent calculation")
+RuntimeError: Juliet likelihood differs from independent calculation

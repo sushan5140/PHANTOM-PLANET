@@ -1,0 +1,8 @@
+# Preserve provenance hashes across Git checkouts and operating systems.
+data/raw/** -text -whitespace
+data/p02_audit/** -text -whitespace
+data/processed/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+reports/p03/invalid_binning_runs/*.csv -text -whitespace
+reports/p03/posteriors/*.npz binary
+*.png binary
+*.pdf binary

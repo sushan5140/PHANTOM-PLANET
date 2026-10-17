@@ -1,0 +1,8 @@
+Warning: no zeus installation found. Will not be able to sample using sampler = 'zeus'.
+Warning: no jax and/or kelp installation found. No kelp phase curves will be able to be used.
+'cp' is not recognized as an internal or external command,
+operable program or batch file.
+{"planets": 1, "nlive": 300, "seed": 142, "lnZ": -803.8608078471582, "lnZerr": 0.35809480620758816, "posterior": {"K_p1": [3.294347341206142, 3.893352019442012, 4.397733404443197]}}
+'cp' is not recognized as an internal or external command,
+operable program or batch file.
+{"planets": 2, "nlive": 300, "seed": 143, "lnZ": -691.1300383358323, "lnZerr": 0.4515772381285053, "posterior": {"K_p1": [4.857860611355929, 5.1848921650867865, 5.531050901426137], "K_p2": [6.699943512383631, 7.06490774197899, 7.453641765617696], "P_p2": [4.784423751069262, 4.785173968726813, 4.785945611151349]}}

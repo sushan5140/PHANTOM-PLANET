@@ -1,0 +1,50 @@
+{
+  "archive_rows": 2332,
+  "archive_stars": 84,
+  "archive_nonpositive_rv_error": 0,
+  "archive_nonpositive_s_error": 1,
+  "target": "HD 73344 / EPIC 212178066",
+  "target_summary": {
+    "n": 189,
+    "span_days": 314.1899984199554,
+    "rv_std_ms": 20.059598196883872,
+    "median_rv_error_ms": 1.72660422325134,
+    "rv_s_pearson_r": 0.39835874127289506
+  },
+  "p02_checks": {
+    "n": true,
+    "span_days": true,
+    "rv_std_ms": true,
+    "median_rv_error_ms": true,
+    "rv_s_pearson_r": true
+  },
+  "archive_table_checks": {
+    "bjd": true,
+    "mnvel": true,
+    "errvel": true,
+    "svalue": true,
+    "svalue_err": true
+  },
+  "nightly_rows": 21,
+  "bjd_min": 2458194.88393422,
+  "bjd_max": 2458509.07393264,
+  "excluded_exposures": 0,
+  "max_nightly_duration_days": 0.846022589597851,
+  "nightly_rv_std_ms": 20.77465529470038,
+  "nightly_formal_error_median_ms": 0.5935033562081349,
+  "hashes": {
+    "data\\p02_audit\\phantom_p02\\all_stars_quality.csv": "50ab36f19f882058a1987ba23fd17e767b0e0b4efb0ed8d0a41ea9c233c11529",
+    "data\\p02_audit\\phantom_p02\\analyze.py": "262639f068b7c645b9b111d0a6d7319a6ac43fd29f381b27b27b771eec5c2e57",
+    "data\\p02_audit\\phantom_p02\\epic212178066_diagnostics.png": "3ac323abac61ef02458d2b2b089dd58a89b04a3dfd7ba685c45c6af695caa1d4",
+    "data\\p02_audit\\phantom_p02\\epic220383386_diagnostics.png": "b791bb7bcaff76c069db3bb91f79430aeb6e6229a56f545e5e3c393400d98927",
+    "data\\p02_audit\\phantom_p02\\epic228724232_diagnostics.png": "744fb41d66829ba5e92211dd62b777b740bc8bcd352b196b59ff48c20f05b8af",
+    "data\\p02_audit\\phantom_p02\\README.md": "7c4cf0e53f0b719cc3cfa691682390507ee183c54e5c205c5a48dbccbc5eab55",
+    "data\\processed\\hd73344_exposures.csv": "aa6a5eed0b4b34381360bfcea6c0db395ced15b143e578ff34086b06f7154b17",
+    "data\\processed\\hd73344_nightly.csv": "0924270509842d6fde7909620c56d338aa29f8e49e60f3ea5e8138ecc10b5b58",
+    "data\\raw\\koa_k2_rv_activity.csv": "4cee16fbe7d1a5f8fabc21cbab57fd915fb30b42797800a69fb25a44be0e6d5b",
+    "data\\raw\\koa_k2_rv_activity.json": "8ab68e741e51ac711bce37fac288e711fab891993736a2ea8e8150e600834015",
+    "data\\raw\\KOA_README.txt": "d458bd903f59ad72fcfae070b756618725a503fd38aaba425df9f648418d6201",
+    "data\\raw\\rvs_toi141.dat": "a0e0e9d0d218ba971fed61bcabe01c3c368180c2528ed8c2824b6f72b5291506",
+    "data\\README.md": "b57848a65d68272b0cc59fa1016c7efea6ac23750739103594fdf76e43145980"
+  }
+}

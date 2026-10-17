@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\scripts\reproduce_juliet.py", line 86, in <module>
+    main()
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\scripts\reproduce_juliet.py", line 40, in main
+    import juliet
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\.venv\lib\site-packages\juliet\__init__.py", line 4, in <module>
+    from .fit import *
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\.venv\lib\site-packages\juliet\fit.py", line 17, in <module>
+    import radvel
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\.venv\lib\site-packages\radvel\__init__.py", line 17, in <module>
+    from .mcmc import *
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\.venv\lib\site-packages\radvel\mcmc.py", line 5, in <module>
+    import curses
+  File "C:\Users\DELL\AppData\Roaming\uv\python\cpython-3.10.17-windows-x86_64-none\lib\curses\__init__.py", line 13, in <module>
+    from _curses import *
+ModuleNotFoundError: No module named '_curses'
