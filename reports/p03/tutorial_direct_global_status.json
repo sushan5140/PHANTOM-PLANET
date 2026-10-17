@@ -1,0 +1,12 @@
+{
+  "status": "aborted_no_evidence",
+  "reason": "dynesty warning: Ellipsoid sampling is extremely inefficient",
+  "nlive": 2000,
+  "sample": "unif",
+  "seed": 19143,
+  "started_utc": "2026-10-17T03:57:08.4895256Z",
+  "stopped_utc": "2026-10-17T04:11:14.2986634Z",
+  "elapsed_seconds": 845.8091378,
+  "cpu_seconds": 725.21875,
+  "lnZ": null
+}

@@ -1,0 +1,67 @@
+{
+  "models": [
+    {
+      "planets": 1,
+      "nlive": 300,
+      "seed": 142,
+      "lnZ": -803.8608078471582,
+      "lnZerr": 0.35809480620758816,
+      "posterior": {
+        "K_p1": [
+          3.294347341206142,
+          3.893352019442012,
+          4.397733404443197
+        ]
+      }
+    },
+    {
+      "planets": 2,
+      "nlive": 300,
+      "seed": 143,
+      "lnZ": -691.1300383358323,
+      "lnZerr": 0.4515772381285053,
+      "posterior": {
+        "K_p1": [
+          4.857860611355929,
+          5.1848921650867865,
+          5.531050901426137
+        ],
+        "K_p2": [
+          6.699943512383631,
+          7.06490774197899,
+          7.453641765617696
+        ],
+        "P_p2": [
+          4.784423751069262,
+          4.785173968726813,
+          4.785945611151349
+        ]
+      }
+    }
+  ],
+  "delta_lnZ_2_minus_1": 112.73076951132589,
+  "documented_delta_lnZ": 114.4,
+  "documented_figure_lnZ": [
+    -805.302,
+    -690.892
+  ],
+  "documented_figure_lnZerr": [
+    0.027,
+    0.023
+  ],
+  "lnZ_minus_documented": [
+    1.441192152841836,
+    -0.23803833583224332
+  ],
+  "documented_rv_only_P2_approx_days": 4.76,
+  "P2_minus_documented_approx_days": 0.0251739687268131,
+  "historical_evidence_within_3sigma": [
+    false,
+    true
+  ],
+  "historical_period_rounding_match": false,
+  "historical_check_definition": "Numerical consistency within 3 combined evidence errors and 0.005 d of documented P2, not bitwise equality",
+  "exact_historical_fit_reproduced": false,
+  "approximate_sanity_check_passed": true,
+  "scope": "Approximate reproduction of first two circular RV examples. Conservative 5-nat absolute/10-nat delta tolerances; not validation to the tiny documentation figure errors. Sampler/version differ and any discrepancy remains unresolved."
+}

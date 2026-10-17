@@ -1,0 +1,9 @@
+test_bad_case (test_sim.TestP01) ... ok
+test_deterministic (test_sim.TestP01) ... ok
+test_ground_truth (test_sim.TestP01) ... ok
+test_periodogram (test_sim.TestP01) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.015s
+
+OK

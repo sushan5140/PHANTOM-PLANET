@@ -1,0 +1,41 @@
+{
+  "source_name": "phantom_p02_audit.zip",
+  "sha256": "2b63ef4dd474c30e62c7ff0113246d6d41a057158b07b1d290caa684788cf653",
+  "contents": [
+    {
+      "name": "phantom_p02/",
+      "size": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "phantom_p02/epic212178066_diagnostics.png",
+      "size": 127786,
+      "crc32": "53c09a4b"
+    },
+    {
+      "name": "phantom_p02/epic220383386_diagnostics.png",
+      "size": 138687,
+      "crc32": "3b7b4658"
+    },
+    {
+      "name": "phantom_p02/all_stars_quality.csv",
+      "size": 13926,
+      "crc32": "60f324a5"
+    },
+    {
+      "name": "phantom_p02/epic228724232_diagnostics.png",
+      "size": 104251,
+      "crc32": "40621820"
+    },
+    {
+      "name": "phantom_p02/README.md",
+      "size": 1334,
+      "crc32": "3cf889a7"
+    },
+    {
+      "name": "phantom_p02/analyze.py",
+      "size": 3455,
+      "crc32": "4bb5084c"
+    }
+  ]
+}

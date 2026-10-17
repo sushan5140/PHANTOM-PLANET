@@ -1,0 +1,4 @@
+C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\.venv\lib\site-packages\dynesty\nestedsamplers.py:713: UserWarning: Ellipsoid sampling is extremely inefficient
+  warnings.warn("Ellipsoid sampling is extremely inefficient")
+C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\.venv\lib\site-packages\dynesty\nestedsamplers.py:713: UserWarning: Ellipsoid sampling is extremely inefficient
+  warnings.warn("Ellipsoid sampling is extremely inefficient")

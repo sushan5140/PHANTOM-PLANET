@@ -1,0 +1,4 @@
+{"path": "data\\raw\\koa_k2_rv_activity.csv", "url": "https://koa.ipac.caltech.edu/data/Contributed/K2ExoDiversity/I2_spectra/K2_Key_Project_Observation_name_and_RV__activity_Compilation.csv", "sha256": "4cee16fbe7d1a5f8fabc21cbab57fd915fb30b42797800a69fb25a44be0e6d5b"}
+{"path": "data\\raw\\koa_k2_rv_activity.json", "url": "https://koa.ipac.caltech.edu/Datasets/K2ExoDiversity/K2_RV_Activity.json", "sha256": "8ab68e741e51ac711bce37fac288e711fab891993736a2ea8e8150e600834015"}
+{"path": "data\\raw\\rvs_toi141.dat", "url": "https://raw.githubusercontent.com/nespinoza/juliet/763f49c4/docs/tutorials/rvs_toi141.dat", "sha256": "a0e0e9d0d218ba971fed61bcabe01c3c368180c2528ed8c2824b6f72b5291506"}
+{"path": "data\\raw\\KOA_README.txt", "url": "https://koa.ipac.caltech.edu/data/Contributed/K2ExoDiversity/I2_spectra/README", "sha256": "d458bd903f59ad72fcfae070b756618725a503fd38aaba425df9f648418d6201"}

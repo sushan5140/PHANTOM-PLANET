@@ -1,0 +1,7 @@
+{"checks": [{"planets": 1, "points_checked": 50, "max_abs_lnlike_difference": 6.148044485598803e-05, "passed": false}], "scope": "Direct normalized Gaussian + circular sine likelihood versus juliet evaluated values; no evidence equivalence claim."}
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\scripts\check_tutorial_likelihood.py", line 55, in <module>
+    main()
+  File "C:\Users\DELL\Documents\Codex\2026-10-17\project-phantom-planet-phase-p03-repository\outputs\PHANTOM-PLANET\scripts\check_tutorial_likelihood.py", line 51, in main
+    raise RuntimeError("Juliet likelihood differs from independent calculation")
+RuntimeError: Juliet likelihood differs from independent calculation
